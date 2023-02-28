@@ -1,9 +1,9 @@
 package utils;
 
-public class FixedNumberGenerator implements NumberGenerator {
+public class FixedPointGenerator implements PointGenerator {
     private final int inputNum;
 
-    public FixedNumberGenerator(int inputNum) {
+    public FixedPointGenerator(int inputNum) {
         this.inputNum = inputNum;
     }
 
